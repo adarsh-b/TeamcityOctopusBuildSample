@@ -65,4 +65,7 @@
   <ItemGroup>
     <Build Include="dbo\Tables\BLOBTest.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Database.publish.xml" />
+  </ItemGroup>
 </Project>
