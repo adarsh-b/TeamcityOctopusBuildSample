@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[BLOBTest] (
+    [Id]       INT             IDENTITY (1, 1) NOT NULL,
+    [BLOBName] VARCHAR (50)    NULL,
+    [BLOBData] VARBINARY (MAX) NULL,
+    CONSTRAINT [PK_BLOBTest] PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
